@@ -1,0 +1,21 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Gouvernorat</th>
+            <th scope="col">Inscrits</th>
+            <th scope="col">Convoqués</th>
+            <th scope="col">Ont reçu au moins une dose</th>
+            <th scope="col">Ont complété la vaccination</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let element of GouvernoratList">
+            <th scope="row">{{element.key}}</th>
+            <td>{{element.doc_count}}</td>
+            <td>{{element[2].value}}</td>
+            <td>{{element[3].value}}</td>
+            <td>{{element[4].value}}</td>
+        </tr>
+    </tbody>
+</table>
