@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "id" : 1,
+            "num_iscri": "17565594",
+            "nom": "Ben Hassan",
+            "prenom": "Riheme",
+            "num_cin": "148745632",
+            "date_de_naissance": "1999/06/04",
+            "date_rdv": "2022/01/15"
+        },       
+        {
+            "id" : 2,
+            "num_iscri": "175569412",
+            "nom": "Abid",
+            "prenom": "Aycha",
+            "num_cin": "098745632",
+            "date_de_naissance": "1999/06/04",
+            "date_rdv": "2022/01/15"
+        }
+    ]
+}
