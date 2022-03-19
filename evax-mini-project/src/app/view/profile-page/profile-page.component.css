@@ -1,0 +1,11 @@
+
+
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+  }
+  table.center {
+      margin-left: auto; 
+      margin-right: auto;
+    }

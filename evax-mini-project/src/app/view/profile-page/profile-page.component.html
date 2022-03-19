@@ -1,0 +1,47 @@
+<div id="input-container" style="text-align:center;width: 300px;margin: 0 auto;">
+    <div class="input-group mb-5" style=" width: 250px">
+      <input
+        [(ngModel)]="numInscription"
+        id="num-inscri"
+        type="text"
+        class="form-control"
+        placeholder="num d'inscription"
+      />
+      <button
+        class="btn btn-outline-secondary"
+        type="button"
+        (click)="nextUser()"
+      >
+        >
+      </button>
+    </div>
+  </div>
+
+<table class="table table-hover center " *ngIf="myUser" id="myUser-container">
+    <tbody>
+        <tr>
+            <th scope="row">Num Inscription</th>
+            <td>{{ myUser.num_iscri }}</td>
+        </tr>
+        <tr>
+            <th scope="row">Nom</th>
+            <td>{{ myUser.nom | titlecase }}</td>
+        </tr>
+        <tr>
+            <th scope="row">Prénom</th>
+            <td>{{ myUser.prenom | titlecase }}</td>
+        </tr>
+        <tr>
+            <th scope="row">Num CIN</th>
+            <td>{{ myUser.num_cin }}</td>
+        </tr>
+        <tr>
+            <th scope="row">Date de naissance</th>
+            <td>{{ myUser.date_de_naissance }}</td>
+        </tr>
+        <tr>
+            <th scope="row">Date de RDV</th>
+            <td>{{ myUser.date_rdv }}</td>
+        </tr>
+    </tbody>
+</table>
