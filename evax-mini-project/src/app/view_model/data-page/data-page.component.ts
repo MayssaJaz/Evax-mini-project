@@ -3,8 +3,8 @@ import { DataService } from 'src/app/services/data/data.service';
 
 @Component({
   selector: 'app-data-page',
-  templateUrl: './data-page.component.html',
-  styleUrls: ['./data-page.component.css']
+  templateUrl: '../../view/data-page/data-page.component.html',
+  styleUrls: ['../../view/data-page/data-page.component.css']
 })
 export class DataPageComponent implements OnInit {
   GouvernoratList:any

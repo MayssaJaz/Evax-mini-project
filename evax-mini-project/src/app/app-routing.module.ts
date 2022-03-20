@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DataPageComponent } from './pages/data-page/data-page.component';
-import { HomePageComponent } from './pages/home-page/home-page.component';
+import { DataPageComponent } from './view_model/data-page/data-page.component';
+import { HomePageComponent } from './view_model/home-page/home-page.component';
 import { ProfilePageComponent } from './view_model/profile-page/profile-page.component';
 
 const routes: Routes = [
