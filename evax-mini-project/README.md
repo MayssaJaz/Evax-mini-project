@@ -8,7 +8,7 @@ We took advantages from the Angular structure to make 3 different folders
 - Model folder: TS classes that define our entities 
 
 
-## What we use in This project : 
+## What we used in This project : 
 
 - Communication between view and view model 
   - Event Binding 
