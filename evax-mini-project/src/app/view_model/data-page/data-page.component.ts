@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from 'src/app/services/data/data.service';
+import { DataService } from 'src/app/view_model/services/data/data.service';
 
 @Component({
   selector: 'app-data-page',
